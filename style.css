@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: red;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  margin-top: 10px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  background: gray;
+  display: none;
+}
+
+.active {
+  display: flex;
+}
